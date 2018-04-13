@@ -1,0 +1,38 @@
+{
+  "name": "cmbcodes",
+  "version": "0.0.1",
+  "description": "Nothing to see here, move along!",
+  "main": "index.js",
+  "scripts": {
+    "babel": "npx babel js/main.js -o dist/js/main.bundle.js",
+    "start": "npx http-server",
+    "webpack": "npx webpack -d -p --progress",
+    "clean": "npx rimraf dist"
+  },
+  "author": "Chris Baughman <cbaughman@redprivet.com> (https://redprivet.com)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "browser-env": "^3.2.5",
+    "browserslist": "^3.2.4",
+    "cross-env": "^5.1.4",
+    "cssnano": "^3.10.0",
+    "nano-fs": "^1.2.4",
+    "node-sass": "^4.8.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-load-config": "^1.2.0",
+    "rimraf": "^2.6.2",
+    "uikit": "^3.0.0-beta.42",
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.7.0"
+  }
+}

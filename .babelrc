@@ -1,0 +1,17 @@
+{
+	"presets": [
+		["env", {
+			"loose": true,
+			"modules": false,
+			"targets": {
+				"browsers": ["last 1 versions"]
+			}
+		}]
+	],
+	"plugins": [
+		["babel-plugin-root-import", {
+			"rootPathPrefix": "@",
+			"rootPathSuffix": "src/scripts"
+		}]
+	]
+}

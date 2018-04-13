@@ -1,0 +1,21 @@
+# CMB .editorconfig
+
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+# Indentation override
+[*.{js,html,vue,scss,css,json,php,tmpl}]
+indent_style = space
+indent_size = 2
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
